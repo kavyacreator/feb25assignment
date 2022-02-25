@@ -1,0 +1,33 @@
+#output in the sequence form
+n=int(input('enter n value:'))
+l=[]
+m=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+print(l)
+m=l
+for i in l:
+    if i>0:
+        print(i,end=' ')
+for i in m:
+    if i<0:
+        print(i,end=' ')
+#output in list form
+n=int(input('enter n value:'))
+t=[]
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(n):
+    if l[i]>0:
+        t.append(l[i])
+for i in range(n):
+    if l[i]<0:
+        t.append(l[i])
+
+print(t)
+    
+        
+
