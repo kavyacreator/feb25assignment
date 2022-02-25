@@ -1,0 +1,15 @@
+n=int(input())
+l=[]
+m=[]
+for i in range(n):
+    l.append(int(input()))
+print(l)
+c=0
+for i in range(n):
+    if l[i]!=0:
+        m.append(l[i])
+        c=c+1
+print(c)
+print(m,end=' ')
+
+        
